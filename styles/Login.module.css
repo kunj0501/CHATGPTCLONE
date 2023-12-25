@@ -1,0 +1,41 @@
+.imgStyle{
+    @apply bg-gradient-to-r from-blue-500 to-indigo-500 rounded-l-md; 
+    position:relative;
+    overflow: hidden;
+}
+.cartoon{
+    background: url('/asset/chatbotimg.avif')no-repeat;
+    position: absolute;
+    bottom: 0;left:0;right:0;top:0;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-position:55%;
+    aspect-ratio: auto;
+    
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  .logo {
+    width: 150px; /* Adjust the size of the logo as needed */
+    margin-bottom: 20px;
+  }
+  
+  .signInButton {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
